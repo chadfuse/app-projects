@@ -11,7 +11,7 @@
           Welcome to my App Projects!
         </h2>
         <p class="mt-3 text-gray-600">
-          Here, you'll find a showcase of some of my latest and greatest app projects. I'm passionate about creating innovative and user-friendly applications that solve real-world problems and enhance user experiences. From mobile apps to web applications, I've got a diverse range of projects to share with you. We'll be updating this page regularly with new projects, so be sure to check back often to see what Im working on. Thank you for visiting, I hope you enjoy exploring my app projects!
+         Here, you'll find a showcase of some of our latest and greatest app projects. We're passionate about creating innovative and user-friendly applications that solve real-world problems and enhance user experiences. From mobile apps to web applications, we've got a diverse range of projects to share with you. We'll be updating this page regularly with new projects, so be sure to check back often to see what we're working on. Thank you for visiting, and we hope you enjoy exploring our app projects!
         </p>
       
       </div>
