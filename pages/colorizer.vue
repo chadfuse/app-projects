@@ -3,7 +3,7 @@
     <v-container fluid class="container--fluid fill-height">
       <v-row class="align-middle">
         <v-col cols="12" md="6" sm="12">
-          <h1 class="text--white">Photo Colorization</h1>
+          <h1 class="text--white">Photo Colorization AI</h1>
           <p>
             This small project that utilizes the power of artificial intelligence for photo colorization! this project enables you to upload black and white photos and instantly transform them into vibrant, full-color images. Simply select a black and white photo using the provided upload button, and the AI algorithm will automatically generate a colored version of the image. 
           </p>
