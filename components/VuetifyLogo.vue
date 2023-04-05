@@ -1,8 +1,8 @@
 <template>
   <img
-    class="vuetify-logo"
-    alt="Vuetify Logo"
-    src="/vuetify-logo.svg"
+    class="cds-logo"
+    alt="cds Logo"
+    src="/logo-chadsia.svg"
   >
 </template>
 
@@ -12,6 +12,7 @@
   width: 180px;
   transform: rotateY(560deg);
   animation: turn 3.5s ease-out forwards 1s;
+  color:white;
 }
 
 @keyframes turn {
