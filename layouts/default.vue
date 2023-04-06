@@ -8,6 +8,12 @@
       app
     >
       <v-list>
+        <v-list-item href="https://chadsia.com">
+  <v-list-item-icon>
+    <v-icon>mdi-sunglasses</v-icon>
+  </v-list-item-icon>
+  <v-list-item-title>Home</v-list-item-title>
+</v-list-item>
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
@@ -30,8 +36,7 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-     <VuetifyLogo class="cds-logo" href="/" nuxt/>
-      <v-toolbar-title>{{ title }}</v-toolbar-title>
+    <VuetifyLogo class="cds-logo" />
       <v-spacer />
     </v-app-bar>
     <v-main>
@@ -66,6 +71,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Colorizer',
           to: '/colorizer'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Open AI ChatBot',
+          to: '/chat-bot',
         }
       ],
       miniVariant: false,
@@ -76,6 +86,9 @@ export default {
 }
 </script>
 <style scoped>
+  *{
+    font-family: 'Quicksand', sans-serif !important;
+  }
   img.cds-logo {
     max-width: 40px;
 }

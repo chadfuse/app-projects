@@ -19,6 +19,8 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  head: {
+    title: 'Welcome!'
+  },
 }
 </script>

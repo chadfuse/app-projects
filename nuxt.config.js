@@ -1,10 +1,11 @@
+require('dotenv').config()
 import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - app-projects',
-    title: 'app-projects',
+    titleTemplate: '%s - ChadSia',
+    title: 'App Projects',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,9 +17,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    link: [
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+      { href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap', rel: 'stylesheet' },
+    ],
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -33,6 +38,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
+    '@nuxtjs/dotenv',
     '@nuxtjs/vuetify',
   ],
 
