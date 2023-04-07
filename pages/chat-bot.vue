@@ -8,13 +8,13 @@
         </p>
       </v-col>
       <v-col cols="12" md="7" sm="12">
-        <v-textarea v-model="question" outlined rows="2" placeholder="Type your question here" @keyup.enter="generateText">
+        <v-text-field v-model="question" outlined rows="2" placeholder="Type your question here" @keyup.enter="generateText">
          <template v-slot:append>
     <v-btn small icon @click="sendQuestion">
       <v-icon small>mdi-send</v-icon>
     </v-btn>
   </template>
-        </v-textarea>
+        </v-text-field>
         <v-textarea v-model="response" outlined readonly rows="10"></v-textarea>
          <v-btn @click="clearConversation" class="cbtn text-capitalize">Clear Conversation</v-btn>
       </v-col>
